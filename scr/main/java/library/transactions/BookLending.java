@@ -45,7 +45,7 @@ public class BookLending {
     }
 
     public boolean isOverdue() {
-        if (returnDate != null) return false; // qaytarilgan
+        if (returnDate != null) return false; 
         return new Date().after(dueDate);
     }
 
